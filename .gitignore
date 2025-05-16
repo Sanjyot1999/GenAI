@@ -1,9 +1,22 @@
+# Python
 __pycache__/
-*.pyc
-.venv/
-.env
-*.sqlite3
+*.py[cod]
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+venv/
+env/
+
+# IDEs
 .vscode/
-"venv/" 
-venv/ 
-venv/ 
+.idea/
+
+# Streamlit cache
+.streamlit/
+
+# OS files
+.DS_Store
+Thumbs.db
